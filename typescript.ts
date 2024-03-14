@@ -17,7 +17,7 @@ enum Key {
   LIKE_COUNT = "like_count",
 }
 
-type Value = string | number;
+type Value = string | number | boolean;
 
 /**
  * The following function has been implemented naively, with the widest types
